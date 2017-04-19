@@ -1,0 +1,166 @@
+{
+  "basics": {
+    "name": "Kaung Htet",
+    "label": "Software Engineer",
+    "picture": "",
+    "email": "me@kaunghtet.xyz",
+    "phone": "+6587420229",
+    "website": "http://kaunghtet.xyz",
+    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
+    "location": {
+      "address": "148 Bishan Street 11, #03-115",
+      "postalCode": "570148",
+      "city": "Singapore",
+      "countryCode": "SG",
+      "region": "Singapore"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "khzaw",
+        "url": "https://twitter.com/khzaw"
+      },
+      {
+        "network": "Github",
+        "username": "khzaw",
+        "url": "https://github.com/khzaw"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "ARTO Gallery",
+      "position": "Full-stack software engineer",
+      "website": "http://arto.gallery",
+      "startDate": "2016-05-15",
+      "endDate": "current",
+      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "highlights": [
+        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
+        "Successfully won Techcrunch Disrupt",
+        "Optimized an algorithm that holds the current world record for Weisman Scores"
+      ]
+    },
+    {
+      "company": "MediaPop",
+      "position": "Software Engineering Intern",
+      "website": "https://mediapop.co",
+      "startDate": "2015-05-01",
+      "endDate": "2015-11-30",
+      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "highlights": [
+        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
+        "Successfully won Techcrunch Disrupt",
+        "Optimized an algorithm that holds the current world record for Weisman Scores"
+      ]
+    },
+    {
+      "company": "MediaPop",
+      "position": "Software Engineering Intern",
+      "website": "https://mediapop.co",
+      "startDate": "2014-05-01",
+      "endDate": "2014-07-31",
+      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "highlights": [
+        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
+        "Successfully won Techcrunch Disrupt",
+        "Optimized an algorithm that holds the current world record for Weisman Scores"
+      ]
+    },
+    {
+      "company": "Odeon Consulting Group",
+      "position": "Software Developer Intern",
+      "website": "http://od-eon.com",
+      "startDate": "2011-11-01",
+      "endDate": "2012-07-31",
+      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "highlights": [
+        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
+        "Successfully won Techcrunch Disrupt",
+        "Optimized an algorithm that holds the current world record for Weisman Scores"
+      ]
+    },
+    {
+      "company": "Port of Singapore Authority (PSA) Corporation Limited",
+      "position": "Developer Intern",
+      "website": "https://www.singaporepsa.com/",
+      "startDate": "2011-02-01",
+      "endDate": "2011-04-30",
+      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "highlights": [
+        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
+        "Successfully won Techcrunch Disrupt",
+        "Optimized an algorithm that holds the current world record for Weisman Scores"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "National University of Singapore",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2011-06-01",
+      "endDate": "2014-01-01"
+    },
+    {
+      "institution": "Republic Polytechnic",
+      "area": "Information Technology",
+      "studyType": "Diploma",
+      "startDate": "2009",
+      "endDate": "2012"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Digital Compression Pioneer Award",
+      "date": "2014-11-01",
+      "awarder": "Techcrunch",
+      "summary": "There is no spoon."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Compression",
+      "level": "Master",
+      "keywords": [
+        "Mpeg",
+        "MP4",
+        "GIF"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Full professional proficiency"
+    },
+    {
+      "language": "Burmese",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Erlich Bachman",
+      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+    }
+  ]
+}
