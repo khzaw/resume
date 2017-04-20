@@ -2,14 +2,10 @@
   "basics": {
     "name": "Kaung Htet",
     "label": "Software Engineer",
-    "picture": "",
     "email": "me@kaunghtet.xyz",
-    "phone": "+6587420229",
+    "phone": "+65-87420229",
     "website": "http://kaunghtet.xyz",
-    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
     "location": {
-      "address": "148 Bishan Street 11, #03-115",
-      "postalCode": "570148",
       "city": "Singapore",
       "countryCode": "SG",
       "region": "Singapore"
@@ -24,6 +20,11 @@
         "network": "Github",
         "username": "khzaw",
         "url": "https://github.com/khzaw"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "khzaw",
+        "url": "https://www.linkedin.com/in/khzaw/"
       }
     ]
   },
@@ -32,65 +33,68 @@
       "company": "ARTO Gallery",
       "position": "Full-stack software engineer",
       "website": "http://arto.gallery",
-      "startDate": "2016-05-15",
+      "startDate": "2016 May",
       "endDate": "current",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "summary": "Employee No. 2",
       "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won Techcrunch Disrupt",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
+        "Helped build the core recommendation engine for artworks based on users' impressions, likes, dislikes",
+        "Consolidated disparate artwork data from different galleries and online gallery partners",
+        "Built the backend content management system for Content Providers to import their artworks",
+        "Adopted test-driven development and influenced other developers to write tests",
+        "Built backend APIs for use by the ARTO iOS application",
+        "Wrote a custom Chromecast receiver for displaying a screen-saver gallery of artworks on Chromecast devices",
+        "Wrote a chrome extension that displays a random artwork at every new tab",
+        "Technologies used: Celery, Django, Python, JavaScript, React, MySQL, RabbitMQ"
       ]
     },
     {
       "company": "MediaPop",
       "position": "Software Engineering Intern",
       "website": "https://mediapop.co",
-      "startDate": "2015-05-01",
-      "endDate": "2015-11-30",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "startDate": "2015 May",
+      "endDate": "2015 November",
       "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won Techcrunch Disrupt",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
+        "Integrated with Instagram API to import photos for a social media campaign",
+        "Built a cross-platform hybrid mobile application for an internal cooperate social network of a client's company",
+        "Technologies used: EmberJS, PhoneGap, Cordova, Python, JavaScript, Django, SASS"
       ]
     },
     {
       "company": "MediaPop",
       "position": "Software Engineering Intern",
       "website": "https://mediapop.co",
-      "startDate": "2014-05-01",
-      "endDate": "2014-07-31",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "startDate": "2014 May",
+      "endDate": "2014 July",
       "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won Techcrunch Disrupt",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
+        "In charge of building Mindef Navy Careers site (https://www.mindef.gov.sg/navy/careers/)",
+        "Worked on various tasks ranging from backend system architecture to frontend client side interactions",
+        "Technologies used: Python, Django, JavaScript, NodeJS, Wintersmith, LESS, jQuery"
       ]
     },
     {
       "company": "Odeon Consulting Group",
-      "position": "Software Developer Intern",
+      "position": "Software Engineering Intern",
       "website": "http://od-eon.com",
-      "startDate": "2011-11-01",
-      "endDate": "2012-07-31",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "startDate": "2011 November",
+      "endDate": "2012 July",
       "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won Techcrunch Disrupt",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
+        "Helped develop a web application that maps and analyzes Orangutan population",
+        "Worked on various tasks across different client's projects",
+        "Technologies used: Python, Django, JavaScript, PostGIS, OpenLayers"
       ]
     },
     {
-      "company": "Port of Singapore Authority (PSA) Corporation Limited",
+      "company": "Port of Singapore Authority (PSA)",
       "position": "Developer Intern",
       "website": "https://www.singaporepsa.com/",
-      "startDate": "2011-02-01",
-      "endDate": "2011-04-30",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "startDate": "2011 Feburary",
+      "endDate": "2011 April",
       "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won Techcrunch Disrupt",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
+        "Wrote shell scripts that",
+        "- intercommunicates between different systems and servers",
+        "- automates the monitoring of servers",
+        "- analyzes log files and triggers warnings when necessary",
+        "Technologies used: Unix programming, Bash, Python, sed, awk"
       ]
     }
   ],
@@ -99,8 +103,8 @@
       "institution": "National University of Singapore",
       "area": "Computer Science",
       "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01"
+      "startDate": "2012",
+      "endDate": "2016"
     },
     {
       "institution": "Republic Polytechnic",
@@ -110,57 +114,95 @@
       "endDate": "2012"
     }
   ],
-  "awards": [
+  "volunteer": [
     {
-      "title": "Digital Compression Pioneer Award",
-      "date": "2014-11-01",
-      "awarder": "Techcrunch",
-      "summary": "There is no spoon."
+      "organization": "Rangoon Mapper",
+      "position": "Founding Developer",
+      "website": "http://mapper.rangoon.io",
+      "startDate": "2017 February",
+      "endDate": "Present",
+      "highlights": [
+        "Designed and implemented open source single-page application to plan your transit and commute in the city of Yangon.",
+        "Optimized the route planning algorithm to consider walking distances, number of services transfers., etc",
+        "Built with React, Redux, Redux-Thunk, Python, GeoJson, Google Maps, Mapbox, SASS, ImmutableJS"
+      ]
+    },
+    {
+      "organization": "tetrisAI",
+      "position": "Team of 5",
+      "website": "https://github.com/khzaw/tetrisAI",
+      "startDate": "2015 January",
+      "endDate": "2015 April",
+      "highlights": [
+        "Developed an AI based on heuristics based genetic algorithm which can clear lines in a single Tetris game.",
+        "Was one of the best AI in the class, that scored up to 5 million lines more.",
+        "Built with Java"
+      ]
+    },
+    {
+      "organization": "xcalibur",
+      "position": "Team Lead, Team of 5",
+      "website": "https://github.com/khzaw/xcalibur",
+      "startDate": "2015 January",
+      "endDate": "2016 January",
+      "highlights": [
+        "Developed a source code static program analyzer for SIMPLE programming language",
+        "Analyzer can accept SQL like queries to query information of the source code",
+        "Built with C++"
+      ]
+    },
+    {
+      "organization": "athena",
+      "position": "Founding Developer",
+      "website": "https://github.com/khzaw/athena",
+      "startDate": "2015 January",
+      "endDate": "2016 January",
+      "summary": "A chrome extension for word definitions lookup in Burmese language"
     }
   ],
   "skills": [
     {
+      "name": "Proficient in",
+      "keywords": [
+        "Python",
+        "JavaScript",
+        "Java"
+      ]
+    },
+    {
+      "name": "Had some experiences with",
+      "keywords": [
+        "C++",
+        "PHP",
+        "OCaml",
+        "Typescript"
+      ]
+    },
+    {
+      "name": "Dabbled with",
+      "keywords": [
+        "Haskell",
+        "Prolog",
+        "Kotlin",
+        "Coffeescript"
+      ]
+    },
+    {
       "name": "Web Development",
-      "level": "Master",
       "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript"
-      ]
-    },
-    {
-      "name": "Compression",
-      "level": "Master",
-      "keywords": [
-        "Mpeg",
-        "MP4",
-        "GIF"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Full professional proficiency"
-    },
-    {
-      "language": "Burmese",
-      "fluency": "Native speaker"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Wildlife",
-      "keywords": [
-        "Ferrets",
-        "Unicorns"
+        "React",
+        "Ember.js",
+        "Django",
+        "CSS3",
+        "Node.js",
+        "SASS"
       ]
     }
   ],
   "references": [
     {
-      "name": "Erlich Bachman",
-      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+      "name": "Kit Sunde, CTO @ Mediapop, (kit@mediapop.co)",
+      "reference": "Htet is one of these rare people that has a self-driven interest in computers that lets him accomplish pretty much anything without any supervision and accomplish it well. He's attentive to feedback and asks for it when he needs it, reads a lot of both online and dead tree literature, and can grasp concepts that are far beyond his practical experience. \nHe has both breath, depth and strikes a healthy balance between quality and speed in his work. So whatever his future brings I know he will be highly valued on the merits of his work. \r\nAs a personal note even though he works hard, he's a pretty chill introvert with a sense of humor, and will be pleasure to be around for anyone."
     }
   ]
 }
