@@ -1,0 +1,715 @@
+<!doctype html>
+<html>
+	<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+
+	<title>Kaung Htet</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+
+	<style type="text/css">
+	@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	margin: 0 0 80px;
+	color: #222;
+}
+b, strong, .area {
+font-weight: 400;
+color: #333;
+}
+a {
+	color: #2A94D6;
+}
+a:focus,
+a:hover {
+	color: #F3AE4E;
+	text-decoration: none;
+}
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0;
+	font-weight: 400;
+	color: #333;
+}
+h1 {
+	font-size: 2em;
+}
+h2 {
+	font-size: 1.8em;
+}
+h3 {
+	font-size: 1.5em;
+}
+h4 {
+	font-size: 1.2em;
+}
+.date {
+	font-weight: 400;
+}
+section {
+	margin-top: 30px;
+}
+li {
+	line-height: 1.5;
+	list-style: none;
+	padding-bottom: 5px;
+}
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .2;
+	position: absolute;
+}
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: #95a5a6;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+	margin-top: 12px;
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #F0F1F2;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: #647687;
+	font-size: 1.5em;
+	font-weight: 300;
+}
+#content h3 {
+	color: #F3AE4E;
+	margin-top: -4px;
+	font-weight: 400;
+}
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+	font-weight: 400;
+	margin-bottom: 8px;
+}
+#education .area {
+	font-weight: 700;
+}
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+#education .studyType {
+	margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
+#skills .keywords, #education .courses {
+	padding: 0;
+	margin: 0;
+}
+#skills .keywords li:before, #education .courses li:before {
+	content: "";
+}
+#skills .keywords li, #education .courses li {
+	display: inline-block;
+	padding: 0px 6px;
+	margin: 3px 4px 4px 0;
+	border: 1px solid #ccc;
+	line-height: 1.5em;
+	border-radius: 1px;
+	background-color: #fafafa
+}
+
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+	#content aside {
+		margin-bottom: 10px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+	.work-item {
+		padding-bottom: 10px
+	}
+	.work-item:last-child {
+		padding-bottom: 0;
+	}
+}
+@media (max-width: 480px) {
+	#content {
+		padding: 15px;
+	}
+	.container {
+		padding: 0 15px;
+	}
+	h1 {
+		font-size: 1.5em;
+	}
+	h2 {
+		font-size: 1.4em;
+	}
+	h3 {
+		font-size: 1.3em;
+	}
+	h4 {
+		font-size: 1em;
+	}
+	.date {
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}
+	#header {
+		margin-bottom: 0px;
+		padding: 20px 0;
+	}
+	#header h2 {
+		font-size: 1.2em;
+	}
+	#actions {
+		display: none;
+	}
+	section {
+		margin-top: 20px;
+		margin-bottom: 30px;
+	}
+	.website.pull-right {
+		float: none !important;
+	}
+}
+@media print {
+	body {
+		margin: 0;
+		font-size: 12px
+	}
+	#header {
+		padding: 0;
+		margin-bottom: 0px;
+	}
+	#content aside {
+		margin-bottom: 0px;
+	}
+	section {
+		margin-top: 25px;
+	}
+	.col-sm-6 {
+		margin-bottom: 0px;
+	}
+	.col-sm-12 h4 {
+		margin-top: 0px;
+	}
+	.strike-through {
+		border: none;
+		margin: 0px 0 0;
+		padding: 10px 0 5px;
+		height: auto;
+		line-height: 1em;
+	}
+	#work .position, #volunteer .position, #work .summary, #volunteer .summary {
+		margin-bottom: 0px;
+		padding-bottom: 8px;
+	}
+	.work-item {
+		padding-bottom: 0px;
+		page-break-inside: avoid;
+	}
+	#volunteer{
+		page-break-inside: avoid;
+	}
+	#awards{
+		page-break-inside: avoid;
+	}
+	#skills {
+		page-break-inside: avoid;
+	}
+	.website {
+		display: none;
+	}
+}
+
+	</style>
+
+	</head>
+	<body>
+
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-sm-push-3">
+					<h1>
+						Kaung Htet
+					</h1>
+					<h2>
+						Software Engineer
+					</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="content" class="container">
+
+	<section id="contact" class="row">
+		<aside class="col-sm-3">
+			<h3>Contact</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<strong>Email</strong>
+				<div class="email"><a href="mailto:me@kaunghtet.xyz" target="_blank">me@kaunghtet.xyz</a></div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Phone</strong>
+				<div class="phone">+65-87420229</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section id="profiles" class="row">
+		<aside class="col-sm-3">
+			<h3>Profiles</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+				<div class="col-sm-6">
+					<strong class="network">
+						Twitter
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://twitter.com/khzaw" target="_blank">khzaw</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						Github
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://github.com/khzaw" target="_blank">khzaw</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						LinkedIn
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://www.linkedin.com/in/khzaw/" target="_blank">khzaw</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="work" class="row">
+		<aside class="col-sm-3">
+			<h3>Work</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12 work-item">
+				<h4 class="strike-through">
+					<span>ARTO Gallery</span>
+					<span class="date">
+						2016 May — current
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://arto.gallery" target="_blank">http://arto.gallery</a>
+				</div>
+				<div class="position">
+					Full-stack software engineer
+				</div>
+				<div class="summary">
+					<p>Employee No. 2</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Helped build the core recommendation engine for artworks based on users&#x27; impressions, likes, dislikes</li>
+					<li class="bullet">Consolidated disparate artwork data from different galleries and online gallery partners</li>
+					<li class="bullet">Built the backend content management system for Content Providers to import their artworks</li>
+					<li class="bullet">Adopted test-driven development and influenced other developers to write tests</li>
+					<li class="bullet">Built backend APIs for use by the ARTO iOS application</li>
+					<li class="bullet">Wrote a custom Chromecast receiver for displaying a screen-saver gallery of artworks on Chromecast devices</li>
+					<li class="bullet">Wrote a chrome extension that displays a random artwork at every new tab</li>
+					<li class="bullet">Technologies used: Celery, Django, Python, JavaScript, React, MySQL, RabbitMQ</li>
+				</ul>
+			</div>
+			<div class="col-sm-12 work-item">
+				<h4 class="strike-through">
+					<span>MediaPop</span>
+					<span class="date">
+						2015 May — 2015 November
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://mediapop.co" target="_blank">https://mediapop.co</a>
+				</div>
+				<div class="position">
+					Software Engineering Intern
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Integrated with Instagram API to import photos for a social media campaign</li>
+					<li class="bullet">Built a cross-platform hybrid mobile application for an internal cooperate social network of a client&#x27;s company</li>
+					<li class="bullet">Technologies used: EmberJS, PhoneGap, Cordova, Python, JavaScript, Django, SASS</li>
+				</ul>
+			</div>
+			<div class="col-sm-12 work-item">
+				<h4 class="strike-through">
+					<span>MediaPop</span>
+					<span class="date">
+						2014 May — 2014 July
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://mediapop.co" target="_blank">https://mediapop.co</a>
+				</div>
+				<div class="position">
+					Software Engineering Intern
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">In charge of building Mindef Navy Careers site (https://www.mindef.gov.sg/navy/careers/)</li>
+					<li class="bullet">Worked on various tasks ranging from backend system architecture to frontend client side interactions</li>
+					<li class="bullet">Technologies used: Python, Django, JavaScript, NodeJS, Wintersmith, LESS, jQuery</li>
+				</ul>
+			</div>
+			<div class="col-sm-12 work-item">
+				<h4 class="strike-through">
+					<span>Odeon Consulting Group</span>
+					<span class="date">
+						2011 November — 2012 July
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://od-eon.com" target="_blank">http://od-eon.com</a>
+				</div>
+				<div class="position">
+					Software Engineering Intern
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Helped develop a web application that maps and analyzes Orangutan population</li>
+					<li class="bullet">Worked on various tasks across different client&#x27;s projects</li>
+					<li class="bullet">Technologies used: Python, Django, JavaScript, PostGIS, OpenLayers</li>
+				</ul>
+			</div>
+			<div class="col-sm-12 work-item">
+				<h4 class="strike-through">
+					<span>Port of Singapore Authority (PSA)</span>
+					<span class="date">
+						2011 Feburary — 2011 April
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://www.singaporepsa.com/" target="_blank">https://www.singaporepsa.com/</a>
+				</div>
+				<div class="position">
+					Developer Intern
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Wrote shell scripts that</li>
+					<li class="bullet">- intercommunicates between different systems and servers</li>
+					<li class="bullet">- automates the monitoring of servers</li>
+					<li class="bullet">- analyzes log files and triggers warnings when necessary</li>
+					<li class="bullet">Technologies used: Unix programming, Bash, Python, sed, awk</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="volunteer" class="row">
+		<aside class="col-sm-3">
+			<h3>Projects</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Rangoon Mapper</span>
+					<span class="date">
+						2017 February — Present
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://mapper.rangoon.io" target="_blank">http://mapper.rangoon.io</a>
+				</div>
+				<div class="position">
+					Founding Developer
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Designed and implemented open source single-page application to plan your transit and commute in the city of Yangon.</li>
+					<li class="bullet">Optimized the route planning algorithm to consider walking distances, number of services transfers., etc</li>
+					<li class="bullet">Built with React, Redux, Redux-Thunk, Python, GeoJson, Google Maps, Mapbox, SASS, ImmutableJS</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>tetrisAI</span>
+					<span class="date">
+						2015 January — 2015 April
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://github.com/khzaw/tetrisAI" target="_blank">https://github.com/khzaw/tetrisAI</a>
+				</div>
+				<div class="position">
+					Team of 5
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Developed an AI based on heuristics based genetic algorithm which can clear lines in a single Tetris game.</li>
+					<li class="bullet">Was one of the best AI in the class, that scored up to 5 million lines more.</li>
+					<li class="bullet">Built with Java</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>xcalibur</span>
+					<span class="date">
+						2015 January — 2016 January
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://github.com/khzaw/xcalibur" target="_blank">https://github.com/khzaw/xcalibur</a>
+				</div>
+				<div class="position">
+					Team Lead, Team of 5
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Developed a source code static program analyzer for SIMPLE programming language</li>
+					<li class="bullet">Analyzer can accept SQL like queries to query information of the source code</li>
+					<li class="bullet">Built with C++</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>athena</span>
+					<span class="date">
+						2015 January — 2016 January
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://github.com/khzaw/athena" target="_blank">https://github.com/khzaw/athena</a>
+				</div>
+				<div class="position">
+					Founding Developer
+				</div>
+				<div class="summary">
+					<p>A chrome extension for word definitions lookup in Burmese language</p>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="education" class="row">
+		<aside class="col-sm-3">
+			<h3>Education</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>National University of Singapore</span>
+					<span class="date">
+						2012 — 2016
+					</span>
+				</h4>
+				<div class="area">
+					Bachelor of Computing in Computer Science
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Republic Polytechnic</span>
+					<span class="date">
+						2009 — 2012
+					</span>
+				</h4>
+				<div class="area">
+					Diploma with Merit in Information Technology
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section id="skills" class="row">
+		<aside class="col-sm-3">
+			<h3>Skills</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<div class="name">
+					<h4 class="strike-through">
+						<span>Proficient in</span>
+					</h4>
+				</div>
+				<ul class="keywords">
+					<li>Python</li>
+					<li>JavaScript</li>
+					<li>Java</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<div class="name">
+					<h4 class="strike-through">
+						<span>Had some experiences with</span>
+					</h4>
+				</div>
+				<ul class="keywords">
+					<li>C++</li>
+					<li>PHP</li>
+					<li>OCaml</li>
+					<li>Typescript</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<div class="name">
+					<h4 class="strike-through">
+						<span>Dabbled with</span>
+					</h4>
+				</div>
+				<ul class="keywords">
+					<li>Haskell</li>
+					<li>Prolog</li>
+					<li>Kotlin</li>
+					<li>Coffeescript</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<div class="name">
+					<h4 class="strike-through">
+						<span>Web Development</span>
+					</h4>
+				</div>
+				<ul class="keywords">
+					<li>React</li>
+					<li>Ember.js</li>
+					<li>Django</li>
+					<li>CSS3</li>
+					<li>Node.js</li>
+					<li>SASS</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section id="references" class="row">
+		<aside class="col-sm-3">
+			<h3>References</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<blockquote class="reference">
+					<p>Htet is one of these rare people that has a self-driven interest in computers that lets him accomplish pretty much anything without any supervision and accomplish it well. He&#x27;s attentive to feedback and asks for it when he needs it, reads a lot of both online and dead tree literature, and can grasp concepts that are far beyond his practical experience. </p>
+          <p>
+            He has both breath, depth and strikes a healthy balance between quality and speed in his work. So whatever his future brings I know he will be highly valued on the merits of his work. </p>
+            <p>As a personal note even though he works hard, he&#x27;s a pretty chill introvert with a sense of humor, and will be pleasure to be around for anyone.</p>
+					<p class="name">
+						<strong>— Kit Sunde, CTO @ Mediapop, (kit@mediapop.co)</strong>
+					</p>
+				</blockquote>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	</div>
+
+	</body>
+</html>
