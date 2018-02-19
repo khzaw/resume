@@ -34,17 +34,18 @@
       "position": "Full-stack software engineer",
       "website": "http://arto.gallery",
       "startDate": "2016 May",
-      "endDate": "current",
+      "endDate": "2018 February",
       "summary": "Employee No. 2",
       "highlights": [
         "Helped build the core recommendation engine for artworks based on users' impressions, likes, dislikes",
         "Consolidated disparate artwork data from different galleries and online gallery partners",
         "Built the backend content management system for Content Providers to import their artworks",
         "Adopted test-driven development and influenced other developers to write tests",
-        "Built backend APIs for use by the ARTO iOS application",
+        "Built backend APIs for use by the ARTO iOS and Android mobile applications",
         "Wrote a custom Chromecast receiver for displaying a screen-saver gallery of artworks on Chromecast devices",
         "Wrote a chrome extension that displays a random artwork at every new tab",
-        "Technologies used: Celery, Django, Python, JavaScript, React, MySQL, RabbitMQ"
+        "Wrote the initial version of ARTO Android app with React Native",
+        "Technologies used: Celery, Django, Python, JavaScript, ReactJS, Redux, React Native, MySQL, RabbitMQ"
       ]
     },
     {
